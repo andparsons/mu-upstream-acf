@@ -1,0 +1,11 @@
+{
+  "name": "sozodesign/mu-upstream-acf",
+  "type": "wordpress-muplugin",
+  "description": "SOZO Upstream ACF",
+  "autoload": {
+    "psr-4": {
+      "SOZO\\Fixes\\": "src/"
+    },
+    "files": ["index.php"]
+  }
+}
